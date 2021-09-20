@@ -41,6 +41,9 @@ Here are some super important questions and actionable steps to look at when con
   * Accept the fact that variation is normal. Consider the difference between measurement variation and random variation in your data. You may run the risk that decisions may be made based on random variation that *cannot be controlled*. Instead, we should make sure to correctly surface actually underlying processes that *we can control.*
   * A relevant source of variation may be how the data is being gathered. For example, scales where customers can rate their satisfaction on a scale from 1 to 10 can create variation as in for one of them a rating of 10 can be the same thing as a rating of 5 for another. One may have not found a product but is happy to have been offered a substitute, another may not have found a product and is *mad* to *only* have been offered a substitute. A rating of this kind may be able to depict satisfaction in a subjective way, but is not a suitable method for f.e. measuring employee performance in a reliable way.
   * Make sure your database is large enough - if not, your model may be very vulnerable to distortion caused by outliers.
+  
+**Important things to consider in preprocessing the data**
+- Identify important ratios in the data and use stratified instead of randomized sampling when creating a train/test split in order to get an accurate representation of the data in each subset.
 
 
 
