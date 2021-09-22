@@ -43,6 +43,7 @@ Here are some super important questions and actionable steps to look at when con
   * Make sure your database is large enough - if not, your model may be very vulnerable to distortion caused by outliers.
   
 **Important things to consider in preprocessing the data**
+- Preprocessing is extremely important for the results of your work - make sure to spend an appropriate amount of time in that step.
 - Identify important ratios in the data and use stratified instead of randomized sampling when creating a train/test split in order to get an accurate representation of the data in each subset.
 
 
